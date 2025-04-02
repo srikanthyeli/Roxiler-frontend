@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"",
+  "proxy": "https://roxlier-backend-1.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axois": "^0.0.1-security",
     "bcrypt": "^5.1.1",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
